@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "../views";
+@source "../../content";
+
+
+/* TailwindCSS 4 Colours */
+@theme {
+  --color-primary: #f0fdf4;
+  --color-secondary: #166534;
+  --color-accent: #059669;
+  --color-accent-dark: #047857;
+  --color-text: #111827;
+
+  --font-bricolage: 'Bricolage Grotesque Variable', sans-serif;
+}
+
+:root {
+  font-family: Inter Variable, sans-serif;
+  font-feature-settings: 'zero' 1, 'cv06' 1, 'cv12' 1, 'cv13' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bricolage Grotesque Variable, sans-serif;
+}

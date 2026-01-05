@@ -1,0 +1,8 @@
+name: 'Elikem Daniels'
+super: true
+id: dfecb0b5-2855-49d4-a7b3-7de6e5162936
+password_hash: $2y$12$pNodfzCjmTgIarYlCMvxV.UD7pgX8nVcCHWfHPt0oSR1azAOVChua
+preferences:
+  collections:
+    pages:
+      view: tree

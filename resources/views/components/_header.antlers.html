@@ -1,0 +1,12 @@
+ {{ partial:components.section tag="header" }}
+   {{ partial:components.container class="flex items-center justify-between" }}
+     <a href="/">Stonehaus - 300</a>
+     <nav class="flex flex-row gap-4">
+       {{ nav handle="header" select="title|url" max_depth="1" include_home="true" }}
+         <a href="{{ url }}" {{ if is_current || is_parent }} class="underline"{{ /if }}>
+           {{ title }}
+         </a>
+       {{ /nav }}
+     </nav>
+   {{ /partial:components.container }}
+ {{ /partial:components.section }}
