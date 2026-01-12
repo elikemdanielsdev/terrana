@@ -6,3 +6,13 @@ preferences:
   collections:
     pages:
       view: tree
+      columns:
+        - title
+        - slug
+        - status
+  nav:
+    top_level:
+      'content::collections::articles': '@alias'
+      'content::collections::pages': '@alias'
+  favorites: {  }
+  locale: en
