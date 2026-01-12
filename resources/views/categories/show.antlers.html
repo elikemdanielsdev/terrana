@@ -1,0 +1,14 @@
+{{ partial:components.section }}
+  {{ partial:components.container }}
+    <h1 class="text-4xl font-bold">{{ title }}</h1>
+    {{ if entries }}
+      <ul>
+        {{ entries }}
+          <li><a href="{{ url }}">{{ title }}</a></li>
+        {{ /entries }}
+      </ul>
+    {{ else }}
+      <p>No entries found in this category.</p>
+    {{ /if }}
+  {{ /partial:components.container }}
+{{ /partial:components.section }}

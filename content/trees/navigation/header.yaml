@@ -5,3 +5,7 @@ tree:
   -
     id: 20dcb839-1a51-4fc0-8f52-d8b55281390a
     entry: ec370e47-ef0c-4516-b04d-a1fb801a60c1
+  -
+    id: 79d45ce8-ff0d-4376-b00e-d9bf6a707958
+    title: Categories
+    url: /categories

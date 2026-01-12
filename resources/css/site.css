@@ -3,7 +3,6 @@
 @source "../views";
 @source "../../content";
 
-
 /* TailwindCSS 4 Colours */
 @theme {
   --color-primary: #f0fdf4;
@@ -16,11 +15,8 @@
 }
 
 :root {
-  font-family: Inter Variable, sans-serif;
+  font-family: Inter, sans-serif;
   font-feature-settings: 'zero' 1, 'cv06' 1, 'cv12' 1, 'cv13' 1; /* fix for Chrome */
-}
-@supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
 }
 
 h1, h2, h3, h4, h5, h6 {

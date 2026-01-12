@@ -1,2 +1,18 @@
 title: SEO
-fields: {  }
+fields:
+  -
+    handle: seo_title
+    field:
+      type: text
+      display: 'SEO Title'
+  -
+    handle: summary
+    field:
+      type: textarea
+      display: Summary
+  -
+    handle: featured_image
+    field:
+      container: assets
+      type: assets
+      display: 'Featured Image'

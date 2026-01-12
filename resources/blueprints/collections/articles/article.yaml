@@ -1,0 +1,58 @@
+title: Article
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Article Details'
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: summary
+            field:
+              type: textarea
+              display: Summary
+          -
+            handle: content
+            field:
+              word_count: true
+              remove_empty_nodes: true
+              container: assets
+              type: bard
+              display: Content
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              display: Slug
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+              display: Date
+              time_enabled: true
