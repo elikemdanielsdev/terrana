@@ -10,9 +10,12 @@ preferences:
         - title
         - slug
         - status
+    articles:
+      view: list
   nav:
     top_level:
       'content::collections::articles': '@alias'
       'content::collections::pages': '@alias'
   favorites: {  }
   locale: en
+  theme: null
