@@ -13,25 +13,11 @@ tabs:
               validate:
                 - required
           -
-            handle: page_builder
+            handle: template
             field:
-              button_label: 'Add Block'
-              type: replicator
-              display: 'Page Builder'
-              sets:
-                common:
-                  display: Common
-                  icon: dashboard-layout-2
-                  sets:
-                    hero_block:
-                      display: 'Hero Block'
-                      icon: align-object-top
-                      fields:
-                        -
-                          handle: title
-                          field:
-                            type: text
-                            display: Title
+              folder: templates
+              type: template
+              display: Template
   sidebar:
     display: Sidebar
     sections:
@@ -43,12 +29,3 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - pages
-              max_items: 1
-              listable: false
-              localizable: true

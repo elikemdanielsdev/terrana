@@ -1,0 +1,12 @@
+ {{ partial:components.section tag="header" }}
+   {{ partial:components.container class="flex items-center justify-between" }}
+     <ul>
+
+       {{ latest }}
+         <li><a href="{{ url }}" class="">{{ title }}</a></li>
+       {{ /latest }}
+
+
+     </ul>
+   {{ /partial:components.container }}
+ {{ /partial:components.section }}

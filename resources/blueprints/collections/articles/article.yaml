@@ -56,3 +56,11 @@ tabs:
                 - required
               display: Date
               time_enabled: true
+          -
+            handle: categories
+            field:
+              type: terms
+              taxonomies:
+                - categories
+              display: Categories
+              mode: select
