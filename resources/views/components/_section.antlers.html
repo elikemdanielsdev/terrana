@@ -1,10 +1,10 @@
 {{ if tag == "header" || tag == "footer"
  || tag == "section" }}
-  <{{ tag }} class="{{ "px-5 py-4 {class}" | tw_merge }}">
+  <{{ tag }} class="{{ "px-[5%] py-4 {class}" | tw_merge }}">
     {{ slot }}
   </{{ tag }}>
 {{ else }}
-  <section class="{{ "px-5 py-4 {class}" | tw_merge }}">
+  <section class="{{ "px-[5%] py-4 {class}" | tw_merge }}">
     {{ slot }}
   </section>
 {{ /if }}
