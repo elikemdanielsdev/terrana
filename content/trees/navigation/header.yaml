@@ -7,5 +7,19 @@ tree:
     title: Categories
     url: /categories
   -
+<<<<<<< HEAD
     id: 63b84159-de2d-4580-ad26-e1844fa02ff1
     entry: e8e16c56-eec8-4fc8-aa85-c6f02e4e4a58
+=======
+    id: 48466103-5bd6-4ef8-b39a-b442c6387353
+    entry: d7e47bed-e8d2-448e-af1a-05d8c1b86f36
+  -
+    id: ec733b10-d1b4-48c4-9e30-ecd2315538ae
+    entry: ab653a0e-3426-4852-bab4-8ca0e4ab011d
+  -
+    id: 7ad6fa31-9d9b-4924-ba45-1a432ea31378
+    entry: b1db17ed-3e1d-4e5a-8743-d0a7374109e7
+  -
+    id: 660647d2-2169-41c0-8daa-0813a480d2d5
+    entry: a549c914-de5a-491b-8b64-1a5fef436c81
+>>>>>>> 05f3400 (add pages)
