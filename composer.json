@@ -14,8 +14,8 @@
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "league/flysystem-aws-s3-v3": "^3.30",
-        "marcorieser/tailwind-merge-statamic": "dev-statamic-6",
-        "statamic/cms": "^6.0"
+        "marcorieser/tailwind-merge-statamic": "1.2.0",
+        "statamic/cms": "^6.2.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
